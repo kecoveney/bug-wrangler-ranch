@@ -105,11 +105,11 @@ Your journey will take you through the wildness of the American Midwest and acro
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > the value of the drovers variable is the result of when your code calls the hireDrovers function.
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > the drover variable is each individual drover called, while the drovers variable is the value of the drovers array.
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   > https://www.loom.com/share/67e1410b3d9f422d8fbfc4c3d900afc5?sid=8b4d5390-485e-4413-b378-840a9bf192bc
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -117,11 +117,11 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > the provided code from the journey module utilizes a for loop to track how many forests the drovers go through on the the journey. The forestNumber Variable will update with each iteration of the loop until the variable is no longer less then the area.forests variable which represents how many forests there are in the area. the push.() method used at the end of the code adds a string of "Forest" to the journey array for each iteration of the loop.
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > the database variable serves as the centralized repository in the form of an array that holds all of the data that will be called by the functions within the other modules.
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   > the herdSize is the parameter of the hireDrovers function and the value is equivalent to the variable cattleToDrive that is defined in the main.js file.
 
 
 ## Final Step
